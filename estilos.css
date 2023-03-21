@@ -1,0 +1,874 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.Mensaje{
+	text-align: center;
+}
+
+
+
+
+
+#ContFormulario{
+	background-color: rgba(255,255,255, 0.95);
+	border: 1px solid rgba(0,0,0, 0.2);
+	width: 300px;
+	height: 340px;
+	border-radius: 5px;
+	margin: -100px auto;
+	text-align: center;
+}
+
+#ContFormulario input[type='text'] {
+    margin: 0px auto;
+    width: 150px;
+}
+
+#ContFormulario input[type='password'] {
+    margin: 0px auto;
+    width: 150px;
+}
+
+#form{
+	text-align: center;
+}
+
+#logo{
+	width: 25%;
+}
+
+#picfondo{
+	margin-top: 5px;
+}
+
+.lbl-format{
+font-size: 1.1em;
+font-weight: bold;
+}
+
+.txt-format{
+	border-radius: 5px;
+}
+
+input{
+	font-size: 1.0em;
+	text-align: center;
+}
+
+#mensaje{
+	font-size: 1.0em;
+	color: brown;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#footer{
+	font-size: 0.8em;
+	font-weight: bold;
+	color: grey;
+	margin-left: 43%;
+
+}
+
+#BarUser{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	width: 100%;
+	height: 70px;
+	text-align: right;
+	font-size: 1.1em;
+	background-color: rgb(201,22,30);
+	
+	
+}
+
+#TitleUsuario{
+	font-size: 0.8em;
+	font-weight: bolder;
+	margin: -10px;
+	color: white;
+}
+
+#Cabecera{
+	text-align: center;
+	margin-top: 2%;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: brown;
+	letter-spacing: 5px;
+
+}
+
+#LblOrden{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#LblMACActual{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#LblCliente{
+	font-weight: bolder;
+	text-align: center;
+
+}
+
+#LblContactos{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#LblTrata{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#LblStatus{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#LblMacFinal{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#LblComentario{
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+#Botones{
+	float: left;
+	width: 100%;
+	background-color: rgb(233,233,233);
+}
+
+#txtNotas{
+	resize: none;
+}
+
+#Mensaje{
+	width: 35%;
+	margin-top: -3.5%;
+	margin-left: 36.1%;
+	font-size: 1.0em;
+}
+
+#BthBotones{
+	width: 100%;
+	text-align: center;
+}
+
+#BthBotones button{
+	margin: 0px 5px;
+	width: 150px;
+	height: 50px;
+	font-size: 18px;
+}
+
+#filasData{
+	font-size: 0.8em;
+}
+
+.Encabezado{
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+
+#LstStatus, #LstRetencion, #LstRetencionStatus, #LstAccionDemora, #LstPueblos, #LstRazonEmision, #LstEmisionProducto, #LstSubRazonEmision, #lstEquipo, #lstCobradoSpy, #lstCreditClass, #lstAprobadoCIVS, #lstVentaCompletada, #lstProducto, #lstContrato, #lstPaquete, #LstTipoEmision, #LstTipoEmision2, #LstFactura, #LstEstado, #LstDireccion, #LstMensaje, #LstSituacion, #LstTipo, #LstSubRazon, #LstResultado{
+	font-weight: bold;
+	color: white;
+}
+
+
+#lstProducto, #lstCreditClass, #lstEquipo, #lstContrato, #lstAprobadoCIVS, #lstVentaCompletada, #lstServicio{
+	width: 150px;
+}
+
+#LstRazonEmision, #LstEstado, #LstPueblos, #LstSubRazonEmision, #LstFactura, #LstDireccion, #LstMensaje, #LstEmisionProducto{
+	width: 230px;
+}
+
+#lstPaquete{
+	width: 200px;
+}
+
+
+label{
+	font-size: 8pt;
+}
+
+input[type='text']{
+	font-size: 8pt;
+}
+
+#LstPueblos{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#LstEstado{
+	width: 235px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#LstTipoEmision{
+	width: 235px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#LstAccionDemora{
+	width: 235px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#LstTipoEmision2{
+	width: 258px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#LstDeuda{
+	font-weight: bold;
+	color: white;
+	background-color: brown;
+}
+
+
+#LstRazon{
+	font-weight: bold;
+	color: white;
+}
+
+.TranferCLOSE{
+	display: none;
+}
+
+.TranferOPEN{
+	display: inline;
+}
+
+
+.RAZONCLOSE{
+	display: none;
+}
+
+.RAZONOPEN{
+	display: inline;
+}
+
+.MACCLOSE{
+	display: none;
+}
+
+.MACOPEN{
+	display: inline;
+}
+
+#Note{
+	color: grey;
+}
+
+#logoInicio{
+	width: 170px;
+	height: 170px;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+}
+
+
+#logoBar{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 0.5%;
+
+	margin-left: 0.5%;
+}
+
+
+.FormatBTN{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.FormatBTN a:hover{
+	color: rgb(201,22,30);
+
+}
+
+.FormatBTN a{
+	color: black;
+
+}
+
+
+
+.FormatSEG{
+	height: 10px;
+	font-size: 12px;
+
+}
+
+.FormatSEG a{
+	color: black;
+	background-color: rgb(233,233,233);
+	border-radius: 10px;
+	padding: 5px;
+	border: 1px solid white;
+}
+
+.FormatSEG a:hover{
+	text-decoration: none;
+	background-color: white;
+	color: brown;
+}
+
+#ALERTA{
+	width: 65.7%;
+	height: 8%;
+	text-align: center;
+	display: block;
+}
+
+.SHOWMSGNO{
+	display: none;
+}
+
+.SHOWMSGSI{
+	width: 65.7%;
+	height: 8%;
+	text-align: center;
+	display: block;
+}
+
+#Mensaje{
+	margin-left: 2%;
+	color: blue;
+	font-size: 1.2em;
+}
+
+
+#MensajeEmision{
+	margin-left: 2%;
+	font-size: 1.5em;
+	background-color: blue;
+}
+
+.FORMAT{
+	background-color: red;
+}
+
+#Div_Notas{
+	font-size: 0.9em;
+}
+
+#txtInt{
+	font-size: 0.8em;
+	color:grey;
+}
+
+.TituloArchivos{
+	font-size: 0.8em;
+	color: blue;
+}
+
+.TituloSecundario{
+	font-size: 0.8em;
+}
+
+
+.TXTCLOSE{
+	display: none;
+}
+
+.TXTOPEN{
+	display: inline;
+}
+
+.DROP_DEUDA_SHOW{
+	display: inline;
+}
+
+.DROP_DEUDA_HIDE{
+	display: none;
+}
+
+.MARCO_DEUDA_HIDE{
+	display: none;
+}
+
+.MARCO_DEUDA_SHOW{
+	display: block;
+}
+
+.MARCO_AUTO_HIDE{
+	display: none;
+}
+
+.MARCO_AUTO_SHOW{
+	display: block;
+}
+
+.MARCO_AUTO_SHOW_HOGAR{
+	display: block;
+}
+
+.MARCO_AUTO_HIDE_HOGAR{
+	display: none;
+}
+
+
+
+.DROP_CATEGORIA_HIDE{
+	display: none;
+}
+
+.DROP_CATEGORIA_SHOW{
+	display: inline;
+}
+
+
+#MarcoAutorizada{
+	color: brown;
+	border: 1px solid grey;
+	width: 970px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+
+#MarcoClaroHogar{
+	color: brown;
+	border: 1px solid grey;
+	width: 970px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+
+
+#MarcoDeuda{
+	color: brown;
+	border: 1px solid grey;
+	width: 970px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+
+.LinkTop{
+	color: brown;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.piePagina{
+	margin-top: 0px;
+	text-align: center;
+}
+
+
+
+.principal{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;	
+	padding: 0px;
+	background-image: url('../pic/fondo.png');
+	background-position: bottom;
+	
+
+	
+}
+
+
+.Main{
+	display: flex;
+	width: 100%;
+	height: 500px;
+	padding: 0px
+
+
+}
+
+.MSG{
+	margin-top: -130px;
+}
+
+.MARCO_ROJO{
+	
+	width: 100%;
+	height: 150px;
+	background: rgb(201,22,30);
+	margin: 170px auto;
+	justify-content: center;
+}
+
+.botonIniciar{
+	width: 55%;
+	background-color: rgb(201,22,30);
+	color: white;
+	font-size: 1.0em;
+	margin: 5px 0px;
+}
+
+.botonIniciar:hover{
+	background-color: grey;
+	color: white;
+}
+
+.botonOlvido{
+	width: 55%;
+
+}
+
+.botonOlvido:hover{
+	background-color: grey;
+	color: white;
+}
+
+.Botones{
+	margin-top: -5px;
+}
+
+.btnlink{
+	color: rgb(233,233,233);
+	font-weight: bold;
+}
+
+.btnlink:hover{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.TituloGeneral{
+	display: flex;
+	text-align: left;
+	width: 70%;
+
+
+}
+
+.userlogin{
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.Texto1{
+	text-align: left;
+	padding: 15px;
+	color: white;
+
+}
+
+
+.logotipo{
+	width: 11%;
+	min-width: 11%;
+
+}
+
+.logo2{
+	width: 88%;
+	min-width: 55px;
+	padding: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: rgb(233,233,233);
+	border-radius: 50px;
+
+}
+
+.Texto_Proyecto{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+
+}
+
+.Texto_Aplicacion{
+	color: rgb(233,233,233);
+	font-weight: bolder;
+	letter-spacing: 7px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Contadores{
+	width: 100%;
+	margin: 0px -10px;
+}
+
+
+
+
+.formatLABEL{
+	height: 100px;
+}
+
+.Fila_Contadores{
+	background-color: rgba(233,233,233, 0.3);
+	font-size: 12px;
+	font-weight: bolder;
+
+}
+
+.DROP_DOWN{
+	background-color: rgba(233,233,233, 0.3);
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+.NAVEGACION{
+	list-style: none;
+}
+
+.NAVEGACION a{
+	color: black;
+}
+
+
+
+.Format_Badge{
+	margin-left: 5px;
+	font-size: 14px;
+	color: white;
+}
+
+
+
+
+.Marco_Copyright{
+	width: 100%;
+	background-color: black;
+	margin-top: 80px;
+	padding: 10px;
+	text-align: center;
+	display: block;
+
+}
+
+.Texto_Copyright{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.Texto_Empresa{
+	color: rgba(233,233,233, 0.5);
+}
+
+.FOOTER{
+	margin: 0px;
+	padding:0px;
+}
+
+.Fila_Drop{
+	display: none;
+}
+
+
+.FILA_GRUPO_1 {
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+}
+
+
+
+.FILA_LABEL{
+	text-align: right;
+	font-size: 12px;
+	margin-top: 5px;
+
+}
+
+.Cabecera{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.Titulo_DEMORA{
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+}
+
+.Titulo_CUADRO{
+	color: rgb(201,22,30);
+}
+
+.FILA_CAMPO{
+	margin-top: -5px;
+	margin-bottom: 10px;
+	margin-left: -15px;
+}
+
+ #lstServicio{
+ 	background-color: brown;
+ 	color: white;
+ 	font-weight: bold;
+ }
+
+
+
+
+
+
+
+
+/*.FILA1{
+	width: 30%;
+	text-align: right;
+	background-color: black;
+}*/
+
+
+@media (max-width: 1000px) 
+	{ 
+		.FILA_COUNT{
+			display: none;
+		}
+
+		.Fila_Drop{
+			display: inline-block;
+
+		}
+
+		.LABEL_FORMAT{
+			font-size: 14px;
+			padding: 5px;
+			float: right;
+			margin-top: -3px;
+			cursor: pointer;
+		}
+
+		.Contadores{
+			width: 70%;
+			margin: 0 10px;
+			float: right;
+		}
+
+		.TituloGeneral{
+			font-size: 12px;
+			padding: 5px;
+
+		}
+
+		.Texto_Proyecto{
+			font-size: 12px;
+		}
+
+		.logo2{
+
+			margin-top: 0px;
+
+		}
+
+		.FILA_LABEL{
+			text-align: left;
+		}
+
+		.FILA_CAMPO{
+			width: 100%;
+		}
+
+
+
+		.Format_Badge_List{
+			float: right;
+			margin-right: 10px;
+		}
+
+		.LISTA_CASOS{
+			margin-left: 5px;
+		}
+
+		.Texto1{
+			margin-left: 25px;
+		}
+
+
+
+
+
+	}
+
+
+
+@media (max-width: 700px ){
+
+		.userlogin{
+			font-size: 12px;
+			width: 75%;
+		}
+
+		.btnlink{
+			font-size: 12px;
+		}
+
+		.FormatSEG{
+			font-size: 10px;
+		}
+
+		.LABEL_FORMAT{
+			font-size: 12px;
+			cursor: pointer;
+		}
+
+		.FILA_LABEL{
+			width: 100%;
+			text-align: left;
+		}
+
+		.FILA_CAMPO{
+			width: 100%;
+		}
+
+		.Texto1{
+			margin-left: 20px;
+			padding: 15px;
+			font-size: 8px;
+		}
+
+		.Contadores{
+			width: 250px;
+		}
+
+
+}
+
+.FormateoCeldas{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+

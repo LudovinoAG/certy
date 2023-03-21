@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#form-ventas{
+    margin: 20px;
+}
+
+#form-ventas h3{
+    width: 38%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    
+}
+
+#listado-registro{
+    margin: 20px;
+}
+
+#tabla-ebbp{
+    width: 40%;
+    margin: 30px;
+}
+
+
+
+#fecha_hoy{
+    margin: 30px;
+    color: grey;
+}
+
+#inb{
+    font-size: 1.0em;
+    color: brown;
+}
+
+#out{
+    font-size: 1.0em;
+    color: blue;
+}
+
+.cab{
+    background-color:lightgray;
+}
+
+.total{
+    background-color:lightgray;
+}
+
+.tabla-dash{
+    width: 70%;
+}
+
+.username{
+    text-align: right;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.fila_agent{
+    margin: 10px;
+    text-align: right;
+}
+
+#agent_label{
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#agent_label #agent_count{
+    font-size: 1.0em;
+}
+
+#txtfecha{
+    width:min-content;
+    margin-left: auto;
+}
+
+form{
+    display: flex; 
+    
+}
+
+form input{
+    margin-left: 5px;
+}
+
+#form-ventas label{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#form-ventas h3{
+    font-size: 2em;
+    font-weight: bold;
+    border: 0px;
+    background-color: beige;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+#form-ventas{
+    background-color: rgba(32,32,32,0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#agent_total{
+    font-size: 1.0em;
+}
